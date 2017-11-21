@@ -1,9 +1,5 @@
-Request and response drills
-===========================
+Express mad lib drill
+=====================
 
-Starter files for request and response drills assignment from Thinkful's Node course.
-
-This app is set up with Express and runs in harmony mode, enabling ES6 features.
-
-
-https://github.com/Thinkful-Ed/hyperdev-req-resp-drills-starter-files
+[GitHub](https://github.com/Thinkful-Ed/express-mad-lib-drill) | [Glitch](https://glitch.com/edit/#!/express-mad-lib-drill?)
+Starting point for mad libs drill.
