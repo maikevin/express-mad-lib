@@ -12,8 +12,8 @@ app.use(express.json());
 
 // your code here.
 
-// hint: in Postman under Body remember to select JSON instead of Text, then try doing
-// console.log(req.body) here to show your key-value pairs from Postman in the Logs
+// hint: click the Logs button near the top left corner of this page, then try doing
+// console.log(req.body) here to show key-value pairs from Postman in the Activity Log
 
 
 // listen for requests :)
