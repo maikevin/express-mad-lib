@@ -15,7 +15,6 @@ app.use(express.json());
 // hint: click the Logs button near the top left corner of this page, then try doing
 // console.log(req.body) here to show key-value pairs from Postman in the Activity Log
 
-
 // listen for requests :)
 app.listen(process.env.PORT, () => console.log(
   `Your app is listening on port ${process.env.PORT}`));
