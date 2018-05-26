@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 
 // your code here.
-
+app.post('/', (req, res) => res.status(201).send('a okay'));
 // hint: click the Logs button near the top left corner of this page, then try doing
 // console.log(req.body) here to show key-value pairs from Postman in the Activity Log
 
