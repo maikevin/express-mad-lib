@@ -13,16 +13,13 @@ app.use(express.json());
 
 
 // your code here.
-
-
 function madlib(body){
   const {adjective1, adjective2, adjective3, adverb, name, noun, place} = body;
   return (
-    `There's a ${adjective1} new ${name} in ${place} and everyone's talking. 
-     Stunningly ${adjective2} and ${adverb} ${adjective3}, all the cool kids know it. 
-  However, ${name} has a secret - ${name}'s a vile vampire.` 
-          + `<br /> Will it end with a bite, or with a stake through the ${noun}?`);
-  
+    `There's a ${adjective1} new ${name} in ${place} and everyone's talking.` + 
+    `Stunningly ${adjective2} and ${adverb} ${adjective3}, all the cool kids know it.` +
+    `However, ${name} has a secret - ${name}'s a vile vampire.` + 
+    `<br /> Will it end with a bite, or with a stake through the ${noun}?`);
 }
 app.post('/', (req, res) => res.send(madlib(req.body)));
 // hint: click the Logs button near the top left corner of this page, then try doing
